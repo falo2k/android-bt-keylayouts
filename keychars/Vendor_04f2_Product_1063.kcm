@@ -29,20 +29,20 @@ key 2 {
 key 3 {
     label:                              '3'
     base:                               '3'
-    shift:                              '\u00A3'
+    shift:                              '\u00a3'
 }
 
 key 4 {
     label:                              '4'
     base:                               '4'
     shift:                              '$'
-	alt:								
+	alt:                                '\u20ac'
 }
 
 key GRAVE {
     label:                              '`'
     base:                               '`'
-    shift:                              '\u00AC'
+    shift:                              '\u00ac'
     alt:                                '\u0300'
     alt+shift:                          '\u0303'
 }
@@ -244,24 +244,6 @@ key 1 {
     shift:                              '!'
 }
 
-#key 2 {
-#    label:                              '2'
-#    base:                               '2'
-#    shift:                              '@'
-#}
-
-#key 3 {
-#    label:                              '3'
-#    base:                               '3'
-#    shift:                              '#'
-#}
-
-#key 4 {
-#    label:                              '4'
-#    base:                               '4'
-#    shift:                              '$'
-#}
-
 key 5 {
     label:                              '5'
     base:                               '5'
@@ -328,14 +310,6 @@ key SLASH {
     shift:                              '?'
 }
 
-#key GRAVE {
-#    label:                              '`'
-#    base:                               '`'
-#    shift:                              '~'
-#    alt:                                '\u0300'
-#    alt+shift:                          '\u0303'
-#}
-
 key MINUS {
     label:                              '-'
     base:                               '-'
@@ -360,23 +334,11 @@ key RIGHT_BRACKET {
     shift:                              '}'
 }
 
-#key BACKSLASH {
-#    label:                              '\\'
-#    base:                               '\\'
-#    shift:                              '|'
-#}
-
 key SEMICOLON {
     label:                              ';'
     base:                               ';'
     shift:                              ':'
 }
-
-#key APOSTROPHE {
-#    label:                              '\''
-#    base:                               '\''
-#    shift:                              '"'
-#}
 
 ### Numeric keypad ###
 
@@ -502,11 +464,6 @@ key AT {
 key STAR {
     label:                              '*'
     base:                               '*'
-}
-
-key POUND {
-    label:                              '#'
-    base:                               '#'
 }
 
 key PLUS {
